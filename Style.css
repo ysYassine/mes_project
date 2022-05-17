@@ -1,0 +1,21 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0e111f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-text {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}

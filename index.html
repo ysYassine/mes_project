@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-    <base href="/">
-  -->
-
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <meta name="description" content="A new Flutter project." />
+    <meta name="description" content="MES by MYS" />
+    <link rel="stylesheet" href="Style.css" />
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -26,7 +12,11 @@
     <meta name="apple-mobile-web-app-title" content="pfe_wynsys" />
     <link rel="apple-touch-icon" href="icons/Icon-192.png" />
 
-    <!-- Favicon -->
+    <!-- 
+      Icon made by juicy_fish from www.flaticon.com 
+      link: https://www.flaticon.com/premium-icon/dashboard_1991007?term=dashboard&related_id=1991007
+    -->
+
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <title>MES By MYS</title>
@@ -36,8 +26,12 @@
     <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+    <div class="center">
+      <div class="loading-text">Chargement...</div>
+      <img class="loadingGIF" src="loading.gif" />
+    </div>
     <script>
-      var serviceWorkerVersion = "2038426541";
+      var serviceWorkerVersion = "1993906454";
       var scriptLoaded = false;
       function loadMainDartJs() {
         if (scriptLoaded) {
