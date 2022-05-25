@@ -80661,7 +80661,7 @@ l(a){A.b(this.d,"_refreshTimer").aP(0)
 this.aG(0)},
 C(a,b){var s,r,q,p=this,o=null,n=p.a4L(),m=B.ab.i(0,900),l=t.p
 m=A.oX(A.a([A.ji(o,A.b8("assets/icons/logs.svg",B.o,B.x,35,35),o,new A.at0(p),o)],l),!0,m,!0,B.XN)
-s=A.a([p.acQ(),p.acS(),p.acR(),p.acP()],l)
+s=A.a([p.acQ(),p.acR(),p.acP(),p.acS()],l)
 if(b.G(t.w).f.a.a>1380)s.push(p.adx())
 s.push(A.z(A.a([A.a0(p.abR(),1),B.nv,p.a14(n.length)],l),B.i,o,B.f,B.h,o))
 s=A.z(A.a([A.a0(new A.a8(B.ci,A.jT(B.b3,s,B.dF,B.b3,16,24),o),1),B.xf],l),B.t,o,B.at,B.h,o)
