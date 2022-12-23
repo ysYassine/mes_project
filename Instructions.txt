@@ -1,9 +1,0 @@
- <meta name="description" content="MES developped by MYS." />
- <link rel="stylesheet" href="Style.css" />
-
- <title>MES By MYS</title>
-
- <div class="center">
-      <div class="loading-text">Chargement...</div>
-      <img class="loadingGIF" src="loading.gif" />
- </div>
