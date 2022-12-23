@@ -7,13 +7,16 @@ This project represents my attempt to create a simple `Manufacturing Execution S
 You can try a demo of the system using the following link:
 https://ysyassine.github.io/mes_project/
 
-`Please note:` To access the demo just press the `"Demo"` button.
+**_Please note_**
+
+- To access the demo just press the `"Demo"` button.
+- This application is not responsive as it is meant to be used on large screens and tablets.
 
 ## Authentication Interface
 
 <img src="./readme_assets/LoginScreen.png" alt="Authentication Interface" >
 
-From this screen, the user logs in to the system using an account defined by an identifier and password.
+From this screen, the user logs in to the system using an account defined by an identifier and password.\
 Access rights to operations vary depending on the type of the user's account. For example, only superiors are able to authenticate remotely. As for workshop operators, they can only log in from the company's internet network.
 
 ## Main Menu
@@ -22,9 +25,9 @@ Access rights to operations vary depending on the type of the user's account. Fo
 
 At this menu, we find several key performance indicators (KPIs) related to the overall production of the factory.
 
-In fact, supervisors can consult the number of fully completed JITs grouped by car type. They can also track the number of JIT calls according to their progress (Completed, in production, waiting, and to be rescheduled) grouped by load position.
+In fact, supervisors can consult the number of fully completed JITs grouped by car type. They can also track the number of JIT calls according to their progress (Completed, in production, waiting, and to be rescheduled) grouped by load position.\
 We also find KPIs presenting the average launch and end delays throughout the factory.
-With this screen, we check the number of alerts in the load positions. For our system, an alert is represented by a JIT call waiting to be rescheduled.
+With this screen, we check the number of alerts in the load positions. For our system, an alert is represented by a JIT call waiting to be rescheduled.\
 Finally, we find the most recent activities carried out in the factory with their details.
 
 ## Charging Station Tracking Interface
@@ -33,8 +36,8 @@ Finally, we find the most recent activities carried out in the factory with thei
 
 This menu corresponds to a macroscopic representation of the production for a given charge position.
 
-At this interface level, we find KPIs related to the production of a charge position. Supervisors can consult the progress of JIT calls in the selected position. They can also track the production status (Completed, in production, waiting, and to be rescheduled) of these production orders according to their progress grouped by car type.
-We also find KPIs presenting the average launch and end delays in the position. This interface allows supervisors to check the number of alerts as well as the JIT calls affected by these alerts.
+At this interface level, we find KPIs related to the production of a charge position. Supervisors can consult the progress of JIT calls in the selected position. They can also track the production status (Completed, in production, waiting, and to be rescheduled) of these production orders according to their progress grouped by car type.\
+We also find KPIs presenting the average launch and end delays in the position. This interface allows supervisors to check the number of alerts as well as the JIT calls affected by these alerts.\
 Finally, we find the most recent activities carried out in the position with their details.
 
 ## Average Delay Tracking Interface
@@ -51,8 +54,8 @@ This interface gathers the KPIs related to the launch and end times of JIT calls
 
 Through this menu, operators follow the production schedule represented by tables containing the JIT calls to be produced.
 
-Operators can switch between the different tables containing scheduled calls, customer returns, internal rescheduling and alerts.
-A JIT call is represented by a line in the table that indicates the current or effective delay, the JIT identifier which is the chassis number of the car concerned, the type of car, the customer and the planned and effective launch and end dates. The operators can then declare the launch and the end of a JIT call thanks to the buttons on each line of the table.
+Operators can switch between the different tables containing scheduled calls, customer returns, internal rescheduling and alerts.\
+A JIT call is represented by a line in the table that indicates the current or effective delay, the JIT identifier which is the chassis number of the car concerned, the type of car, the customer and the planned and effective launch and end dates. The operators can then declare the launch and the end of a JIT call thanks to the buttons on each line of the table.\
 In addition, operators can switch from one station to another, for example, to check the cause of a delay in the transfer of a semi-finished product from another station.
 
 Add to that, operators can use the multiple start and stop menus accessible through the multiple start and stop buttons.
@@ -67,7 +70,7 @@ Production managers also use the production tracking menu to reschedule JITs wit
 
 <img src="./readme_assets/RescheduleMenu.png" alt="Reschedule Menu" >
 
-On this window, the supervisor chooses the new start and end dates, leaves a comment if necessary and confirms his action.
+On this window, the supervisor chooses the new start and end dates, leaves a comment if necessary and confirms his action.\
 It should be noted that the application is able to automatically provide the expected end date based on the duration of the production cycle on the workstation concerned.
 
 ## JIT Call Details Interface
@@ -94,7 +97,7 @@ In this screen, all the details related to a JIT call are shown, which are are a
 
 <img src="./readme_assets/LogsManagement.png" alt="Logs management" >
 
-The history management menu, also called "Logs", allows supervisors to benefit from a well-structured history presenting all the information related to the various operations performed by the operators.
+The history management menu, also called "Logs", allows supervisors to benefit from a well-structured history presenting all the information related to the various operations performed by the operators.\
 This is the menu that ensures traceability. Supervisors can rely on the various detailed and flexible filters to find any information on the operations performed.
 
 ## Supervision Interface
@@ -103,6 +106,6 @@ the supervision menu can only be consulted by higher-level operators, such as pr
 
 <img src="./readme_assets/SupervisionInterface.png" alt="Supervision Interface" >
 
-This information-rich interface allows supervisors to monitor the progress of all JITs in parallel on the various stations involved in production.
-They can also view production cycle times, start and end statements, operators involved and JIT call statuses. Supervisors can rely on a variety of detailed and customizable filters to find the JITs to check.
+This information-rich interface allows supervisors to monitor the progress of all JITs in parallel on the various stations involved in production.\
+They can also view production cycle times, start and end statements, operators involved and JIT call statuses. Supervisors can rely on a variety of detailed and customizable filters to find the JITs to check.\
 In addition, the "Problems" quick filter button lists all JITs with a problematic production order such as a late start or finish, a longer than expected production cycle time, or a JIT call in need of rescheduling.
